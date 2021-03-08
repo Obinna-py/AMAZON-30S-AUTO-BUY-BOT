@@ -14,12 +14,12 @@ driver = webdriver.Chrome(PATH)
 #This is the sign in page for amazon
 URL = "https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&"
 #Put in the item you would like to buy in BUYURL
-BUYURL = "https://www.amazon.com/ASUS-Graphics-DisplayPort-Axial-Tech-2-9-Slot/dp/B08J6F174Z"
+BUYURL = "https://www.amazon.com/Logitech-Wireless-Gaming-Esports-Performance/dp/B07GCKQD77/?_encoding=UTF8&pd_rd_w=7jKuJ&pf_rd_p=2c2713e9-41d3-43f8-9c02-2eab113ab785&pf_rd_r=A9T7236VV40W4QV6RBJ6&pd_rd_r=1c2940c6-58b7-4663-9a14-297944802113&pd_rd_wg=DT5GQ&ref_=pd_gw_ci_mcx_mr_hp_d"
 
 #Put your email in here
-email = "ralphobi2008@gmail.com"
+email = "email"
 #Put your password in here
-password = "Grange2019"
+password = "password"
 
 driver.get(URL)
 
