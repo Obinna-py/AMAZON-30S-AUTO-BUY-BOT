@@ -5,9 +5,9 @@
 #I hope you like it!
 
 from selenium import webdriver
-from selenium.webdriver.support.ui import Select
 import time
 
+#Put in your chrome driver install in here.
 PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
